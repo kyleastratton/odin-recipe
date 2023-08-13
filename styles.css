@@ -1,15 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Varela Round', sans-serif;
   font-size: 1rem;
   background-color: #f1f1f1;
-}
-
-.content-img {
-  width: 50%;
-  height: auto;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  align-items: center;
 }
 
 h1 {
@@ -43,11 +39,6 @@ ul {
   margin-bottom: 2rem;
 }
 
-ul > li {
-  list-style: none;
-  color: #404040;
-}
-
 ol {
   color: #404040;
   margin-left: 2rem;
@@ -62,6 +53,7 @@ ol > li {
   background-color: #fff;
   /* max-width: 500px; */
   max-width: 70vw;
+  min-width: 50%;
   margin: auto;
   border-radius: 0.5rem;
 }
@@ -75,12 +67,24 @@ ol > li {
   justify-content: center;
 }
 
-.recipe_detail_container {
+.detail_container {
   margin: 2rem;
 }
 
-.recipe-detail__list {
+/* .detail__list {
   margin-left: 2rem;
+} */
+
+.detail-list-container {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.detail-list {
+  color: #404040;
+  /* margin-left: 2rem; */
+  /* margin: 0 0 2rem 2rem; */
+  margin: 2rem;
 }
 
 footer {
@@ -89,6 +93,12 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: fixed;
+  /* left: 0;
+  bottom: 0;
+  width: 100%; */
+  width: 100%;
+  bottom: 0;
 }
 
 .footer-list > ul > li > a {
@@ -112,15 +122,24 @@ footer {
   margin: 0rem 4rem;
 }
 
-.odin-logo {
-  height: 10rem;
-  width: 12rem;
-  background-color: #f1f1f1;
+.footer-image {
+  position: relative;
+  margin-right: 4rem;
 }
 
-/* ! Navbar */
+.odin-logo {
+  height: 6rem;
+  width: 8rem;
+  background-color: #f1f1f1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
-/* Basic styling */
+
+/* ! navbar */
+
 * {
   box-sizing: border-box;
   padding: 0;
