@@ -12,6 +12,10 @@ body {
   margin: 20rem;
 }
 
+.block {
+  display: block;
+}
+
 h1 {
   color: #00539f;
   margin: 1rem 0rem 1rem 0rem;
@@ -114,15 +118,7 @@ ol > li {
 
 .container {
   position: relative;
-  /* width: 50%; */
-  /* max-width: 300px; */
 }
-
-/* .image {
-  display: block;
-  width: 100%;
-  height: auto;
-} */
 
 .overlay {
   position: absolute; 
@@ -144,88 +140,39 @@ ol > li {
   opacity: 1;
 }
 
-footer {
+/* new footer */
+
+.footer-container {
   background-color: #f1f1f1;
-  color: #000;
+  max-width: 70vw;
+  height: fit-content;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  margin: auto;
   position: relative;
-  /* left: 0;
-  bottom: 0;
-  width: 100%; */
-  width: 100%;
-  bottom: 0;
 }
 
-.footer-list > ul > li > a {
+.footer {
+  width: 100%;
+}
+
+.footer-details > ul > li > a {
   color: #000 !important;
 }
 
-.footer-content {
-  background-color: #f1f1f1;
-  max-width: 70vw;
-  flex-direction: row;
-  justify-content: space-around;
-  height: fit-content;
-  max-height: 2rem;
-  display: flex;
-  margin: auto;
-  position: relative;
+.footer-details > ul > li {
+  list-style: none;
 }
 
-.footer-list {
+.footer-main {
+  width: 100%;
   display: flex;
-  flex-direction: column !important;
-  justify-content: space-around;
-  margin: 0rem 4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .footer-image {
-  position: relative;
-  margin-right: 4rem;
-}
-
-.footer-bottom {
-  text-align: center;
-  border-top: 1px solid var(--text-gray);
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  width: 50%;
-  gap: 8px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.social-links {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-}
-
-.social-links img {
-  width: 24px;
-  height: 24px;
-  transition: all 0.2s ease-in-out; 
-  margin: 0rem 1rem 0rem 0rem;
-}
-
-.social-links img:hover {
-  transform: scale(1.1);
-}
-
-
-.center {
-  width: 100%;
-  height: fit-content;
-  max-height: 2rem;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  /* display: block; */
-  position: relative;
-  margin: 0.5rem;
+  width: 25%;
 }
 
 .odin-logo {
@@ -233,9 +180,32 @@ footer {
   width: 8rem;
   background-color: #f1f1f1;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.footer-details {
+  width: 25%;
+}
+
+.social-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.footer-top {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70vw;
+  min-width: 50%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  transform: translatex(8%);
 }
 
 
