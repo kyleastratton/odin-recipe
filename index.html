@@ -8,13 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
 
   <nav>
     <ul class="menu">
       <li class="logo"><a>Odin Project - KAS</a></li>
-      <li class="item"><a href="#">Home</a></li>
+      <li class="item"><a href="#" id="active-tab">Home</a></li>
       <li class="item"><a href="#">Recipies</a></li>
       <li class="item"><a href="#">About</a></li>
       <li class="item"><a href="#">Help</a></li>
@@ -26,41 +27,54 @@
 
   <div class="content">
 
-    <div class="main-heading" id="center">
+    <div class="main-heading">
       <h1>Odin Recipies</h1>
     </div>
   
     <div class="detail_container">
 
-      <h2 class="detail__heading">Why not try one of these recipies:</h2>
-      <!-- <ul class="recipe-detail__list">       
-        <li class="recipe-detail__list-item">1 tbsp olive oil</li>                                                 
-        <li class="recipe-detail__list-item">1 onion, diced </li>    
-      </ul> -->
-      <!-- <ul class="detail-list-container">
-        <li><a class="detail-list" href="./recipies/lasagne.html">Lasagne</a></li>
-        <li><a class="detail-list" href="#">Chicken Curry</a></li>
-        <li><a class="detail-list" href="#">Cottage Pie</a></li>
-      </ul> -->
+      <h2 class="detail__heading">Why not try one of these recipies?</h2>
 
-      <div class="image-container">
+      <div class="w3-clear">
 
-        <div class="container" onclick="window.location.href = `./recipies/lasagne.html`">
-          <img class="food-image" src="./assets/lasagne.png">
-          <div class="overlay">Lasagne</div>
+        <div class="responsive" onclick="window.location.href = `./recipies/lasagne.html`">
+          <div class="img">
+            <!-- <a target="_blank" href="img_5terre.jpg"> -->
+              <img class="img" src="./assets/lasagne.png" alt="Cinque Terre" width="300" height="200">
+            <!-- </a> -->
+            <div class="desc">Lasagne</div>
+          </div>
         </div>
-
-        <div class="container">
-          <img class="food-image" src="./assets/chicken-curry.png">
-          <div class="overlay">Chicken Curry</div>
+        
+        <div class="responsive">
+          <div class="img">
+            <!-- <a target="_blank" href="img_forest.jpg"> -->
+              <img class="img" src="./assets/cottage-pie.png" alt="Forest" width="300" height="200">
+            <!-- </a> -->
+            <div class="desc">Cottage Pie</div>
+          </div>
         </div>
-
-        <div class="container">
-          <img class="food-image" src="./assets/cottage-pie.png">
-          <div class="overlay">Cottage Pie</div>
+        
+        <div class="responsive">
+          <div class="img">
+            <!-- <a target="_blank" href="img_lights.jpg"> -->
+              <img class="img" src="./assets/chicken-curry.png" alt="Northern Lights" width="300" height="200">
+            <!-- </a> -->
+            <div class="desc">Chicken Curry</div>
+          </div>
         </div>
-
-      </div>
+        
+        <!-- <div class="responsive">
+          <div class="img">
+            <a target="_blank" href="">
+              <img class="img" src="" alt="" width="300" height="200">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div> -->
+        
+        <div class="clearfix"></div>
+        </div>
 
       <br>
 
@@ -68,67 +82,49 @@
 
   </div>
 
-  <footer>
-    <div class="center gutter">
-      <div class="footer-content gutter">
-
-        <div class="footer-image">
-          <img src="./assets/odin-project-removebg-preview.png" class="odin-logo" alt="Odin projects logo">
-        </div>
-  
-        <div class="footer-list">
-          <h3>Recipies</h3>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
           <ul>
-            <li><a>Recipies</a></li>
-            <li><a>Meal Planner</a></li>
-            <li><a>Healthy Eating Tips</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
           </ul>
         </div>
-  
-        <div class="footer-list">
-          <h3>Company</h3>
+        <div class="footer-col">
+          <h4>get help</h4>
           <ul>
-            <li><a>About Us</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Careers</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
           </ul>
         </div>
-  
-        <div class="footer-list">
-          <h3>Legal</h3>
+        <div class="footer-col">
+          <h4>online shop</h4>
           <ul>
-            <li><a>Terms</a></li>
-            <li><a>Privacy</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#">fresh vegtables</a></li>
+            <li><a href="#">spices</a></li>
+            <li><a href="#">books</a></li>
+            <li><a href="#">accessories</a></li>
           </ul>
         </div>
-  
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="center">
-      <div class="footer-bottom">
-        <p>Created by Kyle Stratton</p>
-        <span class="social-links">
-          <a href="https://www.instagram.com/" title="Instagram">
-            <img src="./assets/iconmonstr-instagram-13.svg" alt="Instgram">
-          </a>
-          <a href="https://uk.linkedin.com/" title="LinkedIn">
-            <img src="./assets/iconmonstr-linkedin-3.svg" alt="LinkedIn">
-          </a>
-          <a href="https://twitter.com/" title="Twitter">
-            <img src="./assets/iconmonstr-twitter-3.svg" alt="Twitter">
-          </a>
-          <a href="https://www.youtube.com/" title="YouTube">
-            <img src="./assets/iconmonstr-youtube-8.svg" alt="YouTube">
-          </a>
-          <a href="https://github.com/" title="GitHub">
-            <img src="./assets/iconmonstr-github-3.svg" alt="GitHub">
-          </a>
-        </span>
-      </div>
-    </div>
-  </footer>
+ </footer>
   
 </body>
 </html>
