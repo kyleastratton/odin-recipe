@@ -140,6 +140,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .menu li a {
@@ -213,6 +214,7 @@ a {
 @media all and (min-width: 700px) {
   .menu {
     justify-content: center;
+    padding: 1rem;
   }
 
   .logo {
@@ -267,6 +269,7 @@ a {
     align-items: flex-start;
     flex-wrap: nowrap;
     background: none;
+    padding: 1rem;
   }
 
   .logo {
