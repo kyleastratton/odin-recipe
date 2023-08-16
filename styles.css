@@ -63,7 +63,6 @@ ol > li {
 
 .content {
   background-color: #fff;
-  /* max-width: 500px; */
   max-width: 50vw;
   min-width: 50%;
   min-height: 30vw;
@@ -78,6 +77,10 @@ ol > li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.detail__heading {
+  margin-bottom: 2rem;
 }
 
 .detail_container {
