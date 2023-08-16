@@ -64,7 +64,7 @@ ol > li {
 .content {
   background-color: #fff;
   /* max-width: 500px; */
-  max-width: 70vw;
+  max-width: 50vw;
   min-width: 50%;
   min-height: 30vw;
   margin: auto;
@@ -312,7 +312,7 @@ a {
 }
 
 #active-tab {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #e91e63;
 }
 
 /* image container */
@@ -327,11 +327,12 @@ a {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
+  margin-bottom: 6rem;
 }
 
-div.img {
+/* div.img {
   border: 1px solid #ccc;
-}
+} */
 
 /* div.img img {
   width: 100%;
@@ -343,6 +344,7 @@ div.img {
   height: 10rem;
   vertical-align: middle;
   border-style: none;
+  border-radius: 0.25rem;
 }
 
 div.desc {
