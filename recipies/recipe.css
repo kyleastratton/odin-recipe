@@ -11,14 +11,6 @@ body {
   color: #24262b;
 }
 
-.content-img {
-  width: 40%;
-  height: auto;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  align-items: center;
-}
-
 h1 {
   margin: 1rem 0rem 1rem 0rem;
 }
@@ -71,6 +63,16 @@ ol > li {
   height: 50%;
   margin: auto;
   border-radius: 0.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.content-img {
+  width: 40%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
 }
 
 .main-heading {
@@ -279,4 +281,53 @@ nav {
 
 .dropdown-menu button:hover {
   background-color: hsl(225, 6%, 20%);
+}
+
+/* nutrition */
+
+.nutritional-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nutritional-card {
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  width: 14%;
+  height: auto;
+  text-align: center;
+  min-width: fit-content;
+}
+
+.nutritional-card > hr {
+  width: 75%;
+  margin: auto;
+}
+
+.nutritional-data-container {
+  margin: 0.4rem;
+}
+
+.nutritional-data-container {
+  margin: 0.1rem;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.low {
+  border-color: #95d16e;
+  background: #95d16e;
+}
+
+.med {
+  border-color: #fcd44b;
+  background: #fcd44b;
+}
+
+.high {
+  border-color: #f16c56;
+  background: #f16c56;
 }
