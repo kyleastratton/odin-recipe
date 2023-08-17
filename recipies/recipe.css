@@ -215,7 +215,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #202124;
+  background-color: #24262b;
   padding: 0 2.5rem;
   height: 4.0rem;
   color: #ffffff;
@@ -269,7 +269,7 @@ nav {
   left: 0;
   min-width: 100%;
   color: #ffffff;
-  background-color: #202124;
+  background-color: #24262b;
   display: none;
 }
 
