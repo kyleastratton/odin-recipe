@@ -13,17 +13,35 @@
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="../assets/favicon/site.webmanifest">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
 
   <nav>
-    <ul class="menu">
-      <li class="logo"><a>Odin Project - KAS</a></li>
-      <li class="item"><a href="../index.html">Home</a></li>
-      <li class="item"><a href="#" id="active-tab">Recipies</a></li>
-      <li class="item"><a href="#">About</a></li>
-      <li class="item"><a href="#">Help</a></li>
-    </ul>
+    <a href="#" class="logo">ODIN RECIPIES PROJECT - KAS</a>
+    <div class="dropdowns">
+      <div class="dropdown">
+        <button class="dropdown-button">
+          <span class="dropdown-span">Home</span>
+        </button>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-button">
+          <span class="dropdown-span" id="active-tab">Recipies</span>
+          <i class="bi bi-chevron-down"></i>
+        </button>
+        <div class="dropdown-menu">
+          <button>Lasagne</button>
+          <button>Cottage Pie</button>
+          <button>Chicken Curry</button>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-button">
+          <span class="dropdown-span">Shop</span>
+        </button>
+      </div>
+    </div>
   </nav>
   
   <div class="content">
