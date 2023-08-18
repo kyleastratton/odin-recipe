@@ -91,7 +91,7 @@ ol > li {
   text-align: center;
 }
 
-.recipe-detail__heading, .recipe-detail__subheading {
+.recipe-detail__subheading {
   text-align: center;
   /* margin: 2rem; */
 }
@@ -291,12 +291,13 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  font-size: 0.75rem;
 }
 
 .nutritional-card {
   border: 1px solid #000;
   border-radius: 0.25rem;
-  width: 14%;
+  width: 10%;
   height: auto;
   text-align: center;
   min-width: fit-content;
@@ -304,30 +305,57 @@ nav {
 
 .nutritional-card > hr {
   width: 75%;
+  height: 0.0625rem;
   margin: auto;
-}
-
-.nutritional-data-container {
-  margin: 0.4rem;
+  /* color: #000; */
+  background-color: #000;
+  border: 0;
+  display: block;
 }
 
 .nutritional-data-container {
   margin: 0.1rem;
   color: #000;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+}
+
+.nutritional-heading {
+  color: #373a36;
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.nutritional-data {
+  margin-bottom: 0.5rem;
+}
+
+.nutritional-percent{
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.hr {
+  width: 100%;
+  margin: 0.5rem 0;
+  border: solid 0.07rem #000
+
 }
 
 .low {
-  border-color: #95d16e;
-  background: #95d16e;
+  border-color: #000;
+  /* background: #95d16e; */
+  background-color: #7ABD7E;
 }
 
 .med {
-  border-color: #fcd44b;
-  background: #fcd44b;
+  border-color: #000;
+  /* background: #fcd44b; */
+  background-color: #FFB54C;
 }
 
 .high {
-  border-color: #f16c56;
-  background: #f16c56;
+  border-color: #000;
+  /* background: #f16c56; */
+  background-color: #FF6961;
 }
