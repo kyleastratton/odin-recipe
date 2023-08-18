@@ -14,11 +14,11 @@ body {
 }
 
 h1 {
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 h2, h3 {
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 0rem 0rem 1rem 0rem;
 }
 
 h1 {
@@ -367,10 +367,10 @@ nav {
 }
 
 .lower-content__container {
-  width: 80%;
+  width: 70%;
   background-color: #fff;
-  margin: 2rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
 }
 
 .image__wrapper {
@@ -389,10 +389,9 @@ nav {
 }
 
 .responsive {
-padding: 0 6px;
-float: left;
-width: 33.33332%;
-margin-bottom: 2rem;
+  padding: 0 6px;
+  float: left;
+  width: 33.33332%;
 }
 
 div.desc {
