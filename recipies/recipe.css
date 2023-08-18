@@ -339,6 +339,10 @@ nav {
 
 }
 
+.light-grey {
+  background-color: #e4e4e4;
+}
+
 .low {
   border-color: #000;
   /* background: #95d16e; */
