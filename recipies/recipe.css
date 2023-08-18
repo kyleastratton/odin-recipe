@@ -359,6 +359,10 @@ nav {
 
 /* you may also like */
 
+.lower-content {
+  margin-bottom: 2rem;
+}
+
 .center {
   display: flex;
   flex-direction: row;

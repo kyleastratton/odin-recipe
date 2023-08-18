@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chicken Curry Recipe</title>
+  <title>Lasagne Recipe</title>
   <link rel="stylesheet" href="./recipe.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,15 +44,10 @@
       </div>
     </div>
   </nav>
-  
-  <div class="content">
 
-    <div class="main-heading">
-      <h1>Chicken Curry Recipe</h1>
-      <img src="../assets/chicken-curry.png" class="content-img" alt="Image: Chicken Curry">
-    </div>
-  
-    <div class="recipe_detail_container">
+  <div class="main-content">
+
+    <div class="sidebar">
       <div class="ingredients">
         <h2 class="recipe-detail__heading">Ingredients</h2>
         <ul class="recipe-detail__list">
@@ -61,20 +56,127 @@
           <li class="recipe-detail__list-item">1 tbsp vegetable oil</li>
           <li class="recipe-detail__list-item">365g pack diced chicken breast</li>
           <li class="recipe-detail__list-item">1 brown onion, sliced</li>
-          <li class="recipe-detail__list-item">440g jar curry sauce</li>                                      
-          <li class="recipe-detail__list-item">100g spinach</li>								
+          <li class="recipe-detail__list-item">440g jar curry sauce</li>
+          <li class="recipe-detail__list-item">100g spinach</li>
         </ul>
       </div>
-
-      <hr>
-
-      <h2 class="recipe-detail__heading">Method</h2>
-      <ol><li>Cook the rice to pack instructions. Boil the potatoes for 10-15 mins until just soft, then drain.</li><li>Meanwhile, heat the oil in a heavy-based frying pan over medium heat. Add the chicken and cook for 5 mins, turning halfway, until golden all over. Add the onion and cook for 3-5 mins until soft.</li><li>Pour in the sauce and add the potatoes. Bring to the boil, then reduce the heat and simmer for 5-10 mins until the chicken is cooked through.</li><li>Stir in the spinach to wilt, then serve with the rice.</li></ol>
-
-      <br>
-
     </div>
 
+  <div class="center-content">
+    <div class="main-heading">
+      <h1>Chicken Curry Recipe</h1>
+      <img src="../assets/chicken-curry.png" class="content-img" alt="Image: Chicken Curry">
+    </div>
+
+    <div class="recipe_detail_container">
+      <!-- <hr> -->
+      <!-- <h2 class="method__heading">Method</h2> -->
+      <ol>
+        <li>Cook the rice to pack instructions. Boil the potatoes for 10-15 mins until just soft, then drain.</li>
+        <li>Meanwhile, heat the oil in a heavy-based frying pan over medium heat. Add the chicken and cook for 5 mins, turning halfway, until golden all over. Add the onion and cook for 3-5 mins until soft.</li>
+        <li>Pour in the sauce and add the potatoes. Bring to the boil, then reduce the heat and simmer for 5-10 mins until the chicken is cooked through.</li>
+        <li>Stir in the spinach to wilt, then serve with the rice.</li>
+      </ol>
+      <br>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <h2>Nutritional Data</h2>
+    <div class="nutritional-wrapper">
+      <div class="nutritional-card" id="calories">
+        <div class="nutritional-data-container">
+          <div class="nutritional-heading">Calories</div>
+          <span class="nutritional-data">739kcal</span>
+          <div class="hr"></div>
+          <span class="nutritional-percent">37%</span>
+        </div>
+      </div>
+      <div class="nutritional-card high" id="fat">
+        <div class="nutritional-data-container">
+          <div class="nutritional-heading">Fat</div>
+          <span class="nutritional-data">29g</span>
+          <div class="hr"></div>
+          <span class="nutritional-percent">42%</span>
+        </div>
+      </div>
+      <div class="nutritional-card high" id="saturates">
+        <div class="nutritional-data-container">
+          <div class="nutritional-heading">Saturates</div>
+          <span class="nutritional-data">14g</span>
+          <div class="hr"></div>
+          <span class="nutritional-percent">71%</span>
+        </div>
+      </div>
+      <div class="nutritional-card low" id="sugars">
+        <div class="nutritional-data-container">
+          <div class="nutritional-heading">Sugars</div>
+          <span class="nutritional-data">12g</span>
+          <div class="hr"></div>
+          <span class="nutritional-percent">14%</span>
+        </div>
+      </div>
+      <div class="nutritional-card low" id="salt">
+        <div class="nutritional-data-container">
+          <div class="nutritional-heading">Salt</div>
+          <span class="nutritional-data">1g</span>
+          <div class="hr"></div>
+          <span class="nutritional-percent">16%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="lower-content">
+    <div class="center">
+      <div class="lower-content__container">
+        <h2 class="lower-content__title">You may also like</h2>
+        <div class="image__wrapper">
+            <div class="responsive">
+              <a href="./lasagne.html">
+                <div class="img">
+                    <img class="small-image" src="../assets/lasagne.png" alt="Image: Lasagne" width="300" height="200">
+                </div>
+                <div class="desc">
+                  <h3>Lasagne</h3>
+                </div>
+              </a>
+            </div>
+            <div class="responsive">
+              <a href="./cottagepie.html">
+                <div class="img">
+                    <img class="small-image" src="../assets/cottage-pie.png" alt="Image: Cottage Pie" width="300" height="200">
+                </div>
+                <div class="desc">
+                  <h3>Cottage Pie</h3>
+                </div>
+              </a>
+            </div>
+            <div class="responsive">
+              <a href="./chickencurry.html">
+                <div class="img">
+                    <img class="small-image" src="../assets/chicken-curry.png" alt="Image: Chicken Curry" width="300" height="200">
+                </div>
+                <div class="desc">
+                  <h3>Chicken Curry</h3>
+                </div>
+              </a>
+            </div>
+            <div class="responsive">
+              <a href="./pepperonipizza.html">
+                <div class="img">
+                    <img class="small-image" src="../assets/pepperoni-pizza.png" alt="Image: Pepperoni Pizza" width="300" height="200">
+                </div>
+                <div class="desc">
+                  <h3>Pepperoni Pizza</h3>
+                </div>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="footer">
@@ -118,6 +220,6 @@
       </div>
     </div>
  </footer>
-  
+
 </body>
 </html>
