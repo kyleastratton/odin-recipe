@@ -87,10 +87,6 @@ ol > li {
   padding: 2rem;
 }
 
-.small-image {
-  min-width: 18.75rem;
-}
-
 .content-img {
   width: 40%;
   height: auto;

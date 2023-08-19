@@ -275,7 +275,7 @@ ul{
 } */
 
 /* navbar */
-a {
+.navbar__text {
   text-decoration: none;
   color: #ffffff;
 }
@@ -359,6 +359,10 @@ nav {
   width: 30rem;
   border-radius: 0.5rem;
   margin: 1rem;
+}
+
+.recipe__a {
+  color: #000000;
 }
 
 .image-text__wrapper {
