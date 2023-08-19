@@ -298,7 +298,7 @@ nav {
 
 .dropdown {
   position: relative;
-  padding: 1.5rem;
+  padding: 0rem 1.5rem;
 }
 
 .dropdown-button {
