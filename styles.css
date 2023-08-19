@@ -58,22 +58,27 @@ ol > li {
   margin-bottom: 1rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .content {
   background-color: #fff;
-  max-width: 50vw;
+  max-width: 80vw;
   min-width: 50%;
   min-height: 50vw;
   margin: auto;
   border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 .main-heading {
   margin-top: 2rem;
-  padding: 1rem;
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 2rem;
 }
 
 .detail__heading {
@@ -95,22 +100,24 @@ ol > li {
 }
 
 /* image container */
-.w3-container:after, .w3-container:before, .w3-panel:after, .w3-panel:before, .w3-row:after, .w3-row:before, .w3-row-padding:after, .w3-row-padding:before, .w3-cell-row:before, .w3-cell-row:after, .w3-clear:after, .w3-clear:before, .w3-bar:before, .w3-bar:after {
+/* .w3-clear:after, .w3-clear:before {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 .responsive {
-  padding: 0 6px;
-  float: left;
+  padding: 0 0.5rem;
+  /* float: left; */
   /* width: 24.99999%; */
-  width: 33.33332%;
+  /* width: 33.33332%; */
+  /* min-width: 33.33332%; */
+  width: 200px;
   margin-bottom: 2rem;
 }
 
 .large-container {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
   height: 100%;
 }
@@ -120,17 +127,21 @@ ol > li {
   flex-direction: row;
   width: 100%;
   overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #f1f1f1;
 }
 
 .large-text-container {
   padding: 0.5rem;
   background-color: #f1f1f1;
   height: 18.75rem;
+  border-radius: 0.5rem;
 }
 
 .large-image {
   height: 18.75rem;
   width: 25rem;
+  border-radius: 0.5rem;
 }
 
 .large-image-desc {
@@ -240,7 +251,7 @@ ul{
 }
 
 /* responsive */
-@media(max-width: 767px){
+/* @media(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
@@ -261,7 +272,7 @@ ul{
     width: 37.5rem;
     height: 6rem;
   }
-}
+} */
 
 /* navbar */
 a {
@@ -339,4 +350,45 @@ nav {
 
 .dropdown-menu button:hover {
   background-color: hsl(225, 6%, 20%);
+}
+
+/* new image test */
+
+.image__container {
+  background-color: #f1f1f1;
+  width: 30rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.image-text__wrapper {
+  float: right;
+  max-width: 17.44449rem;
+  padding: 1rem;
+}
+
+.img {
+  border-radius: 0.5rem;
+  max-width: 12.5rem;
+}
+
+/* responsive */
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  body {
+    font-size: 8px;
+  }
+  .image__container {
+    width: fit-content;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  body {
+    font-size: 16px;
+  }
+  .image__container {
+    width: fit-content;
+  }
 }
